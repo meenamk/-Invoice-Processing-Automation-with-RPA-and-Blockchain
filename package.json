@@ -1,0 +1,27 @@
+{
+  "name": "invoice-processing",
+  "version": "1.0.0",
+  "description": "This is the backend for RPA_AI_Blockchain integration project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "node app.js"
+  },
+  "author": "meenamuthukrishnanr@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ethers": "^3.0.8",
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "ethers": "^6.13.5",
+    "hardhat": "^2.22.19"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "keywords": []
+}
